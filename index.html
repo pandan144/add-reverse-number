@@ -1,0 +1,27 @@
+<!DOCTYPEhtml>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport"  content="width=device-width,initial-scale=1.0">
+		<title>reverce number adding</title>
+	</head>
+	<body>
+	
+	
+		<script>
+		
+		let num=prompt("enter the value");
+		let sum=0;
+			while(num>0){
+				var rem=num%10;
+				if(rem%2==0){
+					sum=sum+rem;
+				}
+				num=(num-rem)/10;
+			}
+			console.log(sum);
+		
+		</script>
+	
+	</body>
+</html>
